@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		E345085D293F888700060533 /* InstagramClone_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E345085C293F888700060533 /* InstagramClone_SwiftUIApp.swift */; };
-		E345085F293F888700060533 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E345085E293F888700060533 /* ContentView.swift */; };
 		E3450861293F888800060533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3450860293F888800060533 /* Assets.xcassets */; };
 		E3450864293F888800060533 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3450863293F888800060533 /* Preview Assets.xcassets */; };
+		E3B4FFEC293F890F00E4EF79 /* PhotoPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4FFE6293F890F00E4EF79 /* PhotoPostView.swift */; };
+		E3B4FFED293F890F00E4EF79 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4FFE7293F890F00E4EF79 /* BottomBarView.swift */; };
+		E3B4FFEE293F890F00E4EF79 /* SelfStoryElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4FFE8293F890F00E4EF79 /* SelfStoryElementView.swift */; };
+		E3B4FFEF293F890F00E4EF79 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4FFE9293F890F00E4EF79 /* ProfileCardView.swift */; };
+		E3B4FFF0293F890F00E4EF79 /* HomeStoryElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4FFEA293F890F00E4EF79 /* HomeStoryElementView.swift */; };
+		E3B4FFF1293F890F00E4EF79 /* HomeScreenBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4FFEB293F890F00E4EF79 /* HomeScreenBarView.swift */; };
+		E3B4FFF3293F891800E4EF79 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4FFF2293F891800E4EF79 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3450859293F888700060533 /* InstagramClone_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E345085C293F888700060533 /* InstagramClone_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramClone_SwiftUIApp.swift; sourceTree = "<group>"; };
-		E345085E293F888700060533 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3450860293F888800060533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3450863293F888800060533 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3B4FFE6293F890F00E4EF79 /* PhotoPostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoPostView.swift; path = ../../../../Instagram_Clone_SwiftUI/Instagram_Clone_SwiftUI/Core/Components/PhotoPostView.swift; sourceTree = "<group>"; };
+		E3B4FFE7293F890F00E4EF79 /* BottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BottomBarView.swift; path = ../../../../Instagram_Clone_SwiftUI/Instagram_Clone_SwiftUI/Core/Components/BottomBarView.swift; sourceTree = "<group>"; };
+		E3B4FFE8293F890F00E4EF79 /* SelfStoryElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelfStoryElementView.swift; path = ../../../../Instagram_Clone_SwiftUI/Instagram_Clone_SwiftUI/Core/Components/SelfStoryElementView.swift; sourceTree = "<group>"; };
+		E3B4FFE9293F890F00E4EF79 /* ProfileCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileCardView.swift; path = ../../../../Instagram_Clone_SwiftUI/Instagram_Clone_SwiftUI/Core/Components/ProfileCardView.swift; sourceTree = "<group>"; };
+		E3B4FFEA293F890F00E4EF79 /* HomeStoryElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeStoryElementView.swift; path = ../../../../Instagram_Clone_SwiftUI/Instagram_Clone_SwiftUI/Core/Components/HomeStoryElementView.swift; sourceTree = "<group>"; };
+		E3B4FFEB293F890F00E4EF79 /* HomeScreenBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeScreenBarView.swift; path = ../../../../Instagram_Clone_SwiftUI/Instagram_Clone_SwiftUI/Core/Components/HomeScreenBarView.swift; sourceTree = "<group>"; };
+		E3B4FFF2293F891800E4EF79 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../../../Instagram_Clone_SwiftUI/Instagram_Clone_SwiftUI/Core/Home/HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,8 @@
 		E345085B293F888700060533 /* InstagramClone_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E3B4FFE3293F88C400E4EF79 /* Core */,
 				E345085C293F888700060533 /* InstagramClone_SwiftUIApp.swift */,
-				E345085E293F888700060533 /* ContentView.swift */,
 				E3450860293F888800060533 /* Assets.xcassets */,
 				E3450862293F888800060533 /* Preview Content */,
 			);
@@ -65,6 +77,36 @@
 				E3450863293F888800060533 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3B4FFE3293F88C400E4EF79 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E3B4FFE5293F88FD00E4EF79 /* Home */,
+				E3B4FFE4293F88F200E4EF79 /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E3B4FFE4293F88F200E4EF79 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E3B4FFE7293F890F00E4EF79 /* BottomBarView.swift */,
+				E3B4FFEB293F890F00E4EF79 /* HomeScreenBarView.swift */,
+				E3B4FFEA293F890F00E4EF79 /* HomeStoryElementView.swift */,
+				E3B4FFE6293F890F00E4EF79 /* PhotoPostView.swift */,
+				E3B4FFE9293F890F00E4EF79 /* ProfileCardView.swift */,
+				E3B4FFE8293F890F00E4EF79 /* SelfStoryElementView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E3B4FFE5293F88FD00E4EF79 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E3B4FFF2293F891800E4EF79 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E345085F293F888700060533 /* ContentView.swift in Sources */,
+				E3B4FFF3293F891800E4EF79 /* HomeView.swift in Sources */,
+				E3B4FFF0293F890F00E4EF79 /* HomeStoryElementView.swift in Sources */,
+				E3B4FFEC293F890F00E4EF79 /* PhotoPostView.swift in Sources */,
+				E3B4FFF1293F890F00E4EF79 /* HomeScreenBarView.swift in Sources */,
 				E345085D293F888700060533 /* InstagramClone_SwiftUIApp.swift in Sources */,
+				E3B4FFEE293F890F00E4EF79 /* SelfStoryElementView.swift in Sources */,
+				E3B4FFEF293F890F00E4EF79 /* ProfileCardView.swift in Sources */,
+				E3B4FFED293F890F00E4EF79 /* BottomBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
